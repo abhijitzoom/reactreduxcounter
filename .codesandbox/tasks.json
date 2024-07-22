@@ -2,12 +2,12 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "npm install redux react-redux --save",
-      "name": "npm install redux react-redux --save"
+      "name": "npm install redux react-redux --save",
+      "command": "npm install redux react-redux --save"
     },
     {
-      "command": "npm install",
-      "name": "n"
+      "name": "n",
+      "command": "npm install"
     }
   ],
 
@@ -20,18 +20,15 @@
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
     },
     "eject": {
       "name": "eject",
-      "command": "npm run eject",
-      "runAtStart": false
+      "command": "npm run eject"
     }
   }
 }
